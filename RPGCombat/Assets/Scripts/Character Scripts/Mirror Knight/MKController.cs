@@ -849,6 +849,7 @@ public class MKController : EnemyController {
 	 */
 	public void SetColor(Color color)
 	{
+		color.a = 1.0f;
 		transform.GetChild (1).renderer.material.color = color;
 	}
 

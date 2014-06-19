@@ -142,7 +142,7 @@ public class LevelController : MonoBehaviour {
 				bossController = boss.GetComponent<MKController>();
 
 				// Set boss color
-				bossController.SetColor(Color.black);
+				bossController.SetColor(Color.red);
 
 				// Set boss attributes
 				bossController.scale = 1.5f;
