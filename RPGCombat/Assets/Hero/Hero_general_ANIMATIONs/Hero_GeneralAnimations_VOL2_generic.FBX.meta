@@ -1,0 +1,701 @@
+fileFormatVersion: 2
+guid: b42b05d21d898ee41b7be1ac643d0b15
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: Bip01 L Thigh
+    100002: Bip01 R Finger1
+    100004: Bip01 R Calf
+    100006: Bip01 R Thigh
+    100008: Bip01 R Forearm
+    100010: Bip01 Spine1
+    100012: Bip01 Spine
+    100014: Bip01 Pelvis
+    100016: Bip01
+    100018: Bip01 R Finger42
+    100020: Bip01 R Finger41
+    100022: Bip01 R Finger32
+    100024: Bip01 R Finger31
+    100026: Bip01 R Finger22
+    100028: Bip01 R Finger21
+    100030: Bip01 Rhand_Weapon
+    100032: Bip01 R Finger12
+    100034: Bip01 R Finger11
+    100036: Bip01 R Finger02
+    100038: Bip01 R Finger01
+    100040: Bip01 R UpperArm
+    100042: Bip01 R Clavicle
+    100044: Bip01 shield_mount
+    100046: Bip01 L Finger42
+    100048: Bip01 L Finger41
+    100050: Bip01 L Finger32
+    100052: Bip01 L Finger31
+    100054: Bip01 L Finger22
+    100056: Bip01 L Finger21
+    100058: Bip01 Rhand_WeaponOpp
+    100060: Bip01 L Finger12
+    100062: Bip01 L Finger11
+    100064: Bip01 L Finger02
+    100066: Bip01 L Finger01
+    100068: Bip01 L UpperArm
+    100070: Bip01 L Clavicle
+    100072: Bip01 zeye_right
+    100074: Bip01 back_shield_mount
+    100076: Bip01 back_left_Wmount
+    100078: Bip01 back_center_Wmount
+    100080: Bip01 back_right_Wmount
+    100082: Bip01 L Finger1
+    100084: Bip01 L Finger0
+    100086: Bip01 L Hand
+    100088: Bip01 L Forearm
+    100090: Bip01 zeye_left
+    100092: Bip01 zJaw
+    100094: Bip01 Head
+    100096: Bip01 Neck
+    100098: Bip01 L Toe0
+    100100: Bip01 L Finger2
+    100102: Bip01 L Finger3
+    100104: Bip01 R Finger0
+    100106: Bip01 R Hand
+    100108: Bip01 L Finger4
+    100110: Bip01 L Foot
+    100112: Bip01 R Foot
+    100114: //RootNode
+    100116: Bip01 right_Wmount
+    100118: Bip01 left_Wmount
+    100120: Bip01 R Finger3
+    100122: Bip01 L Calf
+    100124: Bip01 R Finger4
+    100126: Bip01 R Finger2
+    100128: Bip01 R Toe0
+    100130: hero
+    100132: pick
+    100134: shield01
+    100136: shovel
+    100138: sword01
+    400000: Bip01 L Thigh
+    400002: Bip01 R Finger1
+    400004: Bip01 R Calf
+    400006: Bip01 R Thigh
+    400008: Bip01 R Forearm
+    400010: Bip01 Spine1
+    400012: Bip01 Spine
+    400014: Bip01 Pelvis
+    400016: Bip01
+    400018: Bip01 R Finger42
+    400020: Bip01 R Finger41
+    400022: Bip01 R Finger32
+    400024: Bip01 R Finger31
+    400026: Bip01 R Finger22
+    400028: Bip01 R Finger21
+    400030: Bip01 Rhand_Weapon
+    400032: Bip01 R Finger12
+    400034: Bip01 R Finger11
+    400036: Bip01 R Finger02
+    400038: Bip01 R Finger01
+    400040: Bip01 R UpperArm
+    400042: Bip01 R Clavicle
+    400044: Bip01 shield_mount
+    400046: Bip01 L Finger42
+    400048: Bip01 L Finger41
+    400050: Bip01 L Finger32
+    400052: Bip01 L Finger31
+    400054: Bip01 L Finger22
+    400056: Bip01 L Finger21
+    400058: Bip01 Rhand_WeaponOpp
+    400060: Bip01 L Finger12
+    400062: Bip01 L Finger11
+    400064: Bip01 L Finger02
+    400066: Bip01 L Finger01
+    400068: Bip01 L UpperArm
+    400070: Bip01 L Clavicle
+    400072: Bip01 zeye_right
+    400074: Bip01 back_shield_mount
+    400076: Bip01 back_left_Wmount
+    400078: Bip01 back_center_Wmount
+    400080: Bip01 back_right_Wmount
+    400082: Bip01 L Finger1
+    400084: Bip01 L Finger0
+    400086: Bip01 L Hand
+    400088: Bip01 L Forearm
+    400090: Bip01 zeye_left
+    400092: Bip01 zJaw
+    400094: Bip01 Head
+    400096: Bip01 Neck
+    400098: Bip01 L Toe0
+    400100: Bip01 L Finger2
+    400102: Bip01 L Finger3
+    400104: Bip01 R Finger0
+    400106: Bip01 R Hand
+    400108: Bip01 L Finger4
+    400110: Bip01 L Foot
+    400112: Bip01 R Foot
+    400114: //RootNode
+    400116: Bip01 right_Wmount
+    400118: Bip01 left_Wmount
+    400120: Bip01 R Finger3
+    400122: Bip01 L Calf
+    400124: Bip01 R Finger4
+    400126: Bip01 R Finger2
+    400128: Bip01 R Toe0
+    400130: hero
+    400132: pick
+    400134: shield01
+    400136: shovel
+    400138: sword01
+    2300000: pick
+    2300002: shield01
+    2300004: shovel
+    2300006: sword01
+    3300000: pick
+    3300002: shield01
+    3300004: shovel
+    3300006: sword01
+    4300000: hero
+    4300002: sword01
+    4300004: shield01
+    4300006: pick
+    4300008: shovel
+    7400000: UA_Hero_GeneralAnimations_VOL2
+    7400002: Backflip
+    7400004: Jump_Left
+    7400006: Jump_Right
+    7400008: Roll_back
+    7400010: Roll_forward
+    7400012: Roll_left
+    7400014: Roll_right
+    7400016: strafe_run_left
+    7400018: strafe_run_right
+    7400020: RM_Backflip
+    7400022: RM_Dodge_Jump_Left_2X
+    7400024: RM_Dodge_Jump_Right_2X
+    7400026: RM_Roll_back
+    7400028: RM_Roll_forward
+    7400030: RM_Roll_left
+    7400032: RM_Roll_right
+    7400034: RM_strafe_run_left
+    7400036: RM_strafe_run_right
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Bip01 Pelvis
+    13700002: hero
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Backflip
+      takeName: 
+      firstFrame: 0
+      lastFrame: 35
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Jump_Left
+      takeName: 
+      firstFrame: 36
+      lastFrame: 61
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Jump_Right
+      takeName: 
+      firstFrame: 62
+      lastFrame: 87
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Roll_back
+      takeName: 
+      firstFrame: 88
+      lastFrame: 118
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Roll_forward
+      takeName: 
+      firstFrame: 119
+      lastFrame: 149
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Roll_left
+      takeName: 
+      firstFrame: 150
+      lastFrame: 180
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Roll_right
+      takeName: 
+      firstFrame: 181
+      lastFrame: 211
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: strafe_run_left
+      takeName: 
+      firstFrame: 216
+      lastFrame: 242
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: strafe_run_right
+      takeName: 
+      firstFrame: 247
+      lastFrame: 273
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: RM_Backflip
+      takeName: 
+      firstFrame: 278
+      lastFrame: 313
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: RM_Dodge_Jump_Left_2X
+      takeName: 
+      firstFrame: 318
+      lastFrame: 343
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: RM_Dodge_Jump_Right_2X
+      takeName: 
+      firstFrame: 348
+      lastFrame: 373
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: RM_Roll_back
+      takeName: 
+      firstFrame: 378
+      lastFrame: 408
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: RM_Roll_forward
+      takeName: 
+      firstFrame: 413
+      lastFrame: 443
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: RM_Roll_left
+      takeName: 
+      firstFrame: 448
+      lastFrame: 478
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: RM_Roll_right
+      takeName: 
+      firstFrame: 483
+      lastFrame: 513
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: RM_strafe_run_left
+      takeName: 
+      firstFrame: 518
+      lastFrame: 544
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: RM_strafe_run_right
+      takeName: 
+      firstFrame: 550
+      lastFrame: 575
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: Bip01
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  userData: 

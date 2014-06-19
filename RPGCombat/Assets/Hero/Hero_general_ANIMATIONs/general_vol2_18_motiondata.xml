@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Anim>
+ <Data id="1" name="Backflip" startFrame="0f" endFrame="35f" />
+ <Data id="2" name="Dodge_Jump_Left_2X" startFrame="36f" endFrame="61f" />
+ <Data id="3" name="Dodge_Jump_Right_2X" startFrame="62f" endFrame="87f" />
+ <Data id="4" name="Roll_back" startFrame="88f" endFrame="118f" />
+ <Data id="5" name="Roll_forward" startFrame="119f" endFrame="149f" />
+ <Data id="6" name="Roll_left" startFrame="150f" endFrame="180f" />
+ <Data id="7" name="Roll_right" startFrame="181f" endFrame="211f" />
+ <Data id="8" name="strafe_run_left" startFrame="216f" endFrame="242f" />
+ <Data id="9" name="strafe_run_right" startFrame="247f" endFrame="273f" />
+ <Data id="10" name="RM_Backflip" startFrame="278f" endFrame="313f" />
+ <Data id="11" name="RM_Dodge_Jump_Left_2X" startFrame="318f" endFrame="343f" />
+ <Data id="12" name="RM_Dodge_Jump_Right_2X" startFrame="348f" endFrame="373f" />
+ <Data id="13" name="RM_Roll_back" startFrame="378f" endFrame="408f" />
+ <Data id="14" name="RM_Roll_forward" startFrame="413f" endFrame="443f" />
+ <Data id="15" name="RM_Roll_left" startFrame="448f" endFrame="478f" />
+ <Data id="16" name="RM_Roll_right" startFrame="483f" endFrame="513f" />
+ <Data id="17" name="RM_strafe_run_left" startFrame="518f" endFrame="544f" />
+ <Data id="18" name="RM_strafe_run_right" startFrame="549f" endFrame="575f" />
+</Anim>

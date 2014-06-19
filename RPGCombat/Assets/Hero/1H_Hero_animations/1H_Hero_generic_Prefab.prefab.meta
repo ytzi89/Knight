@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: 93a4c3a8ef75b0245841c61c11949caa
+labels:
+- animation
+- parry
+- block
+- character
+- death
+- battle
+- army
+- walk
+- trust
+- run
+- blow
+- slash
+- fight
+- knight
+- warrior
+NativeFormatImporter:
+  userData: 
