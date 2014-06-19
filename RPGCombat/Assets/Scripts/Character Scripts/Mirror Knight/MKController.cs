@@ -31,12 +31,13 @@ public class MKController : EnemyController {
 	GameObject target;					// Target game object
 	KnightController targetController;	// Target's controller class
 
-	// Character scaling
+	// Character customization variables
 	public float scale;
 	public float pMoveSpeed;
 	public float pTurnSpeed;
 	public float pAttackDamageBasic;
 	public float pAttackDamageHeavy;
+	public Color pColor;
 	
 	// Movement variables
 	float moveSpeed;		// Movement speed
@@ -210,6 +211,8 @@ public class MKController : EnemyController {
 		attackDamageBasic *= pAttackDamageBasic;
 		attackDamageHeavy *= pAttackDamageHeavy;
 		attackRange *= scale;
+
+		SetColor (pColor);
 	}
 	
 	// Update is called once per frame
@@ -840,6 +843,16 @@ public class MKController : EnemyController {
 	/* * * * * * * * * * * * * * * Helper Functions * * * * * * * * * * * * * * * */
 
 	/*
+	 * SetColor
+	 * 
+	 * This method sets the character's armor color.
+	 */
+	public void SetColor(Color color)
+	{
+		transform.GetChild (1).renderer.material.color = color;
+	}
+
+	/*
 	 * IsDead
 	 * 
 	 * Is the character dead?
@@ -1109,7 +1122,7 @@ public class MKController : EnemyController {
 	 */
 	void PlaySound(AudioClip clip)
 	{
-		audioSource.Stop ();			// Stop curren taudio
+		audioSource.Stop ();			// Stop current audio
 		audioSource.clip = clip;		// Set current clip to clip
 		audioSource.PlayOneShot (clip);	// Play clip
 	}

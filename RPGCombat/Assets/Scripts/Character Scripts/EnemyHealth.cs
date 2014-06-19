@@ -50,7 +50,7 @@ public class EnemyHealth : MonoBehaviour {
 		{
 			RaycastHit hit;
 
-			if(Physics.Raycast(cam.transform.position + cam.transform.up, direction.normalized, out hit, 20.0f))
+			if(Physics.Raycast(cam.transform.position, direction.normalized, out hit, 20.0f))
 			{
 				//if(hit.collider.gameObject == cam)
 				//{

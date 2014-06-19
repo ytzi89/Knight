@@ -1003,7 +1003,7 @@ public class KnightController : MonoBehaviour {
 	 */
 	void PlaySound(AudioClip clip)
 	{
-		audioSource.Stop ();			// Stop curren taudio
+		audioSource.Stop ();			// Stop current audio
 		audioSource.clip = clip;		// Set current clip to clip
 		audioSource.PlayOneShot (clip);	// Play clip
 	}
