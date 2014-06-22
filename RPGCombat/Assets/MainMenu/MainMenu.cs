@@ -5,6 +5,11 @@ public class MainMenu : MonoBehaviour {
 	
 	public Texture2D menuBackground;
 
+	AudioSource audio;
+
+	public AudioClip menuMusic;
+	float musicTimer;
+
 	struct MenuButton
 	{
 		Vector2 position;
@@ -58,12 +63,27 @@ public class MainMenu : MonoBehaviour {
 
 	void Start()
 	{
+		audio = GetComponent<AudioSource> ();
+
+		musicTimer = 0.0f;
+		audio.clip = menuMusic;
+		audio.Play ();
+
 		buttonStart = new MenuButton (new Vector2 (Screen.width * 0.64f, Screen.height * 0.5f), 200, 50, "START");
 		buttonOptions = new MenuButton (new Vector2 (Screen.width * 0.64f, Screen.height * 0.65f), 200, 50, "OPTIONS");
 		buttonQuit = new MenuButton (new Vector2 (Screen.width * 0.64f, Screen.height * 0.8f), 200, 50, "QUIT");
 	}
 
 	void Update () {
+
+		musicTimer += Time.deltaTime;
+
+		if(musicTimer >= menuMusic.length)
+		{
+			musicTimer = 0.0f;
+			audio.Play ();
+		}
+
 		if(Input.GetMouseButtonUp (0))
 		{
 			if(buttonStart.hovered)

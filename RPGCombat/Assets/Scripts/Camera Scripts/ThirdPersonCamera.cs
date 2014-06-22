@@ -7,7 +7,7 @@ public class ThirdPersonCamera : MonoBehaviour {
 	KnightController targetController;
 	float cameraDistance = 5.0f;
 	
-	float mouseSensitivity = 200.0f;
+	float mouseSensitivity = 125.0f;
 	Vector3 offset;
 	float hMouse, vMouse;
 	//float x = 0.0f, y = 0.0f;
