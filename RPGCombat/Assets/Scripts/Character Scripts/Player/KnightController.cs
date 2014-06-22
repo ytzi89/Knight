@@ -778,8 +778,8 @@ public class KnightController : MonoBehaviour {
 				break;
 			case PlayerState.Dodging:
 				// Check if current dodge is complete
-				if(dodgeTimer > timeDodge)
-					ChangeToState (PlayerState.Dodging);
+				//if(dodgeTimer > timeDodge)
+				//	ChangeToState (PlayerState.Dodging);
 				break;
 			case PlayerState.Flinching:
 				// Check if flinch is complete
