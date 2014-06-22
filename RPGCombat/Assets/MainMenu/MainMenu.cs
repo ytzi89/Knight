@@ -4,6 +4,7 @@ using System.Collections;
 public class MainMenu : MonoBehaviour {
 	
 	public Texture2D menuBackground;
+	public Texture2D optionsMenu;
 
 	AudioSource audio;
 
@@ -60,10 +61,16 @@ public class MainMenu : MonoBehaviour {
 	MenuButton buttonStart;
 	MenuButton buttonOptions;
 	MenuButton buttonQuit;
+	MenuButton buttonBack;
+
+	enum MenuState{Main, Options};
+	MenuState menuState;
 
 	void Start()
 	{
 		audio = GetComponent<AudioSource> ();
+
+		menuState = MenuState.Main;
 
 		musicTimer = 0.0f;
 		audio.clip = menuMusic;
@@ -72,10 +79,40 @@ public class MainMenu : MonoBehaviour {
 		buttonStart = new MenuButton (new Vector2 (Screen.width * 0.64f, Screen.height * 0.5f), 200, 50, "START");
 		buttonOptions = new MenuButton (new Vector2 (Screen.width * 0.64f, Screen.height * 0.65f), 200, 50, "OPTIONS");
 		buttonQuit = new MenuButton (new Vector2 (Screen.width * 0.64f, Screen.height * 0.8f), 200, 50, "QUIT");
+		buttonBack = new MenuButton(new Vector2(Screen.width - 100, Screen.height - 50), 200, 50, "BACK");
 	}
 
 	void Update () {
 
+		switch(menuState)
+		{
+		case MenuState.Main:
+			if(Input.GetMouseButtonUp (0))
+			{
+				if(buttonStart.hovered)
+				{
+					Application.LoadLevel("Home");
+				}
+				else if(buttonOptions.hovered)
+				{
+						menuState = MenuState.Options;
+				}
+				else if(buttonQuit.hovered)
+				{
+					Application.Quit ();
+				}
+			}
+			break;
+		case MenuState.Options:
+			if(Input.GetMouseButtonUp (0))
+			{
+				if(buttonBack.hovered)
+				{
+						menuState = MenuState.Main;
+				}
+			}
+			break;
+		}
 		musicTimer += Time.deltaTime;
 
 		if(musicTimer >= menuMusic.length)
@@ -83,34 +120,31 @@ public class MainMenu : MonoBehaviour {
 			musicTimer = 0.0f;
 			audio.Play ();
 		}
-
-		if(Input.GetMouseButtonUp (0))
-		{
-			if(buttonStart.hovered)
-			{
-				Application.LoadLevel("Home");
-			}
-			else if(buttonOptions.hovered)
-			{
-
-			}
-			else if(buttonQuit.hovered)
-			{
-				Application.Quit ();
-			}
-		}
 	}
 	
 	void OnGUI()
 	{
-		// Draw background
-		GUI.skin.box.normal.background = menuBackground;
-		GUI.Box (new Rect (0.0f, 0.0f, Screen.width, Screen.height), "");
+		switch(menuState)
+		{
+		case MenuState.Main:
+			// Draw background
+			GUI.skin.box.normal.background = menuBackground;
+			GUI.Box (new Rect (0.0f, 0.0f, Screen.width, Screen.height), "");
+			
+			// Draw buttons
+			buttonStart.RenderButton ();
+			buttonOptions.RenderButton ();
+			buttonQuit.RenderButton ();
+			break;
+		case MenuState.Options:
+			// Draw background
+			GUI.skin.box.normal.background = optionsMenu;
+			GUI.Box (new Rect(0.0f, 0.0f, Screen.width, Screen.height), "");
 
-		// Draw buttons
-		buttonStart.RenderButton ();
-		buttonOptions.RenderButton ();
-		buttonQuit.RenderButton ();
+			// Draw buttons
+			buttonBack.RenderButton();
+			break;
+		}
 	}
 
 }

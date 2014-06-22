@@ -63,7 +63,7 @@ public class EnemyHealth : MonoBehaviour {
 						tex.Apply ();
 						GUI.skin.box.normal.background = tex;
 						GUI.Box (new Rect (pos.x - ((currentHealth / maxHealth) * 50.0f), Screen.height - pos.y - 15, 
-						                   100.0f * (currentHealth / maxHealth), 10.0f), "");
+						                   100.0f * (currentHealth / maxHealth), 5.0f), "");
 					}
 
 					// Display damage
