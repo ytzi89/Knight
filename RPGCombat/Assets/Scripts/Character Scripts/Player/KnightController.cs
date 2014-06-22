@@ -502,7 +502,9 @@ public class KnightController : MonoBehaviour {
 	{
 		// Audio timer
 		audioTimer = 0.0f;
-		audioSource.clip = null;
+
+		if(audioSource.clip == audioWalking || audioSource.clip == audioSprinting)
+			audioSource.clip = null;
 
 		switch(state)
 		{

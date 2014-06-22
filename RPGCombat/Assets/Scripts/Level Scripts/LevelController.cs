@@ -38,6 +38,9 @@ public class LevelController : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 
+		Screen.showCursor = false;	// Remove cursor
+		Screen.lockCursor = true;	// Lock cursor
+
 		InitAudio ();	// Initiate audio
 
 		InitTriggers ();	// Initiate the triggers
