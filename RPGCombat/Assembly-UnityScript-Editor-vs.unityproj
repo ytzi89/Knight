@@ -52,6 +52,9 @@
      <None Include="Assets\Terrain\Standard Assets\Water (Basic)\Sources\Shaders\FX-Water Simple.shader" />
      <None Include="Assets\Hero\Hero_general_ANIMATIONs\general_vol2_18_motiondata.xml" />
      <None Include="Assets\Hero\Standard Assets\Shaders\DifSpecTransp.shader" />
+ <Reference Include="Assembly-UnityScript">
+ <HintPath>Library\ScriptAssemblies\Assembly-UnityScript.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>C:\Program Files (x86)\Unity\Editor\Data\Managed\UnityEditor.Graphs.dll</HintPath>
  </Reference>

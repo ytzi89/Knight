@@ -1,6 +1,6 @@
 ﻿#pragma strict
 private var waypoints : GameObject[];
-var maxSize: int = 12;
+var maxSize: int = 30;
 private var currentIndex : int;
 private var currentWaypoint : Transform;
 var introCamera : Transform;

@@ -2,7 +2,8 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Cinematic Intro.js">
     <Files>
-      <File FileName="Assets\Scripts\Cinematic Intro.js" Line="36" Column="40" />
+      <File FileName="Assets\Scripts\Cinematic Intro.js" Line="35" Column="107" />
+      <File FileName="Assets\Scripts\Cinematic Intro.js" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
