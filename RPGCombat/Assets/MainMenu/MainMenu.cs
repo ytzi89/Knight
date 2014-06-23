@@ -94,7 +94,7 @@ public class MainMenu : MonoBehaviour {
 			{
 				if(buttonStart.hovered)
 				{
-					Application.LoadLevel("Home");
+					Application.LoadLevel("IntroCinematic");
 				}
 				else if(buttonOptions.hovered)
 				{
