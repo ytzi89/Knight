@@ -68,6 +68,9 @@ public class MainMenu : MonoBehaviour {
 
 	void Start()
 	{
+		Screen.showCursor = true;
+		Screen.lockCursor = false;
+
 		audio = GetComponent<AudioSource> ();
 
 		menuState = MenuState.Main;

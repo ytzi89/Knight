@@ -8,6 +8,10 @@ public class LevelController : MonoBehaviour {
 	public AudioClip music;
 	float musicTimer;
 
+	// Main character
+	GameObject knight;
+	KnightHealth knightHealth;
+
 	// NPCs for gate triggers
 	public GameObject MKone;
 	MKController mkcOne;
@@ -35,8 +39,18 @@ public class LevelController : MonoBehaviour {
 	public GameObject GateFour;
 	GateController gcFour;
 
+	bool gameEnd;
+	float gameEndTimer;
+
 	// Use this for initialization
 	void Start () {
+
+		knight = GameObject.FindGameObjectWithTag ("Knight");
+		knightHealth = knight.GetComponent<KnightHealth> ();
+
+		gameEnd = false;
+
+		gameEndTimer = 0.0f;
 
 		Screen.showCursor = false;	// Remove cursor
 		Screen.lockCursor = true;	// Lock cursor
@@ -50,10 +64,60 @@ public class LevelController : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
+		if(!gameEnd && knightHealth.GetHealth() <= 0.0f)
+		{
+			gameEnd = true;
+		}
+
+		if(boss != null && !gameEnd)
+		{
+			if(boss.GetComponent<EnemyHealth>().GetHealth () <= 0.0f)
+			{
+				gameEnd = true;
+			}
+		}
+
 		UpdateAudio ();	// Update the audio;
 
-		UpdateTriggers ();	// Update the triggers
+		if(gameEnd)
+		{
+			gameEndTimer += Time.deltaTime;
 
+			// 5 seconds return to menu
+			if(gameEndTimer >= 5.0f)
+			{
+				Application.LoadLevel("MainMenu");
+			}
+		}
+		else
+		{
+			UpdateTriggers ();	// Update the triggers
+		}
+
+	}
+
+	void OnGUI()
+	{
+		if(gameEnd)
+		{
+			GUIStyle style = new GUIStyle ();
+			style.fontSize = 48;
+			style.fontStyle = FontStyle.Bold;
+			style.alignment = TextAnchor.MiddleCenter;
+
+			if(knightHealth.GetHealth () <= 0.0f)
+			{
+				style.normal.textColor = Color.red;
+
+				GUI.Label (new Rect(Screen.width * 0.5f, Screen.height * 0.5f, 100, 50), "GAME OVER");
+			}
+			else if(boss.GetComponent<EnemyHealth>().GetHealth () <= 0.0f)
+			{
+				style.normal.textColor = Color.green;
+
+				GUI.Label(new Rect(Screen.width * 0.5f, Screen.height * 0.5f, 100, 50), "CONGRATULATIONS");
+			}
+		}
 	}
 
 

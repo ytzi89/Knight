@@ -37,7 +37,10 @@ function Update () {
 			}
 		}
 		else
+		{
 			done = true;
+			Application.LoadLevel("Home");
+		}
 	}
 }
 

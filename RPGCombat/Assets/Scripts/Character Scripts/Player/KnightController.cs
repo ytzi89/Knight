@@ -124,7 +124,7 @@ public class KnightController : MonoBehaviour {
 		attackType = AttackType.Basic;	// Initate attack type to  basic
 		attackDamageBasic = 25.0f;		// Set basic damage
 		attackDamageHeavy = 40.0f;		// Set heavy damage
-		attackRange = 4.0f;				// Attack range set to 3
+		attackRange = 3.0f;				// Attack range set to 3
 		attackAngle = 60.0f;			// 60 degree attack angle
 
 		// Blocking variables
@@ -233,7 +233,7 @@ public class KnightController : MonoBehaviour {
 					movement *= 2.0f;	// Increase movement speed
 
 					// Reduce stamina while sprinting
-					knightHealth.SetStamina (knightHealth.GetStamina () - (15.0f * Time.deltaTime));
+					knightHealth.SetStamina (knightHealth.GetStamina () - (5.0f * Time.deltaTime));
 				}
 				// Isn't sprinting
 				else
