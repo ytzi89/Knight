@@ -664,12 +664,6 @@ public class KnightController : MonoBehaviour {
 		{
 			DodgeInput();	// Handle state change
 		}
-
-		// F key to test flinching
-		if(Input.GetKeyDown (KeyCode.F))
-		{
-			TakeHit (transform.forward, 15.0f, AttackType.Basic);
-		}
 	}
 
 	// Can the character attack
